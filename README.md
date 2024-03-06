@@ -54,11 +54,11 @@ Applied Permutation importance to explain feature predictability score towards p
 
 <h2> Model Recommendations to Customer (Findings) </h2>
 
-    1. Customers are highly likely to buy high price cars n California.
-    2. When the car is automatic, the price is selling for high prices.
-    However, car transmission being manual or other, also yield high sales but lower by 4 times than automatic transmission cars.
-    3. Further, amonsgt the fuel types, gas fuelled cars predict high sale price of the cars.
-    4. Other state that predict high sale prices are oregan
-    5. Customers are highly likely to buy high price for sedan cars.
+1. Customers are highly likely to buy high price cars n California.
+2. When the car is automatic, the price is selling for high prices.
+   However, car transmission being manual or other, also yield high sales but lower by 4 times than automatic transmission cars.
+3. Further, amonsgt the fuel types, gas fuelled cars predict high sale price of the cars.
+4. Other state that predict high sale prices are oregan
+5. Customers are highly likely to buy high price for sedan cars.
    
     
