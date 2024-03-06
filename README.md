@@ -1,10 +1,10 @@
 # Regressor_PA2
  
-** Problem Statement** 
+<h2> Problem Statement </h2>
 Develop Regressor optimal ML model to predict car sale prices. The provided dataset is form kaggle and contains information on 426K cars to ensure speed of processing.  The goal is to understand what factors make a car more or less expensive for client such as a used car dealership who would like to know what consumers value in a used car.
 
 
-<h2> ** Analysis Processing Summary ** </h2>
+<h2> Analysis Processing Summary </h2>
 
 1. There are 426880 unique records of cars.
 2. Descriptors variables like VIN, drive, type, size, paint color, condition & cylinders seems have 30% or less data. These variables do not change much for a car as well and hence have been excluded these from the analysis.
@@ -17,13 +17,13 @@ Develop Regressor optimal ML model to predict car sale prices. The provided data
 9. Since 532 columns after onehot encoding and its are taking long time for processing, I dropped columns of states where price is less than the mean price of all cars -> resulting in dataframe with 132 features/columns
 
 
-<h3>** Data Obeservations **</h3>
+<h2>** Data Obeservations </h2>
 
 1. Price seems to be in increasing trend post year - 2000
 2. States - California followed by Oregon and Delaware has highest prices 
 2. Manufactures - Toyota, Chevolet and Meercedes-benz has highest sale prices 
     
-** Modeling ** 
+<h2> Modeling </h2>
 I implemented two models:
 1. Simple Linear Regression:
    Fine tuned the model using gridsearch cross validtaion to find optimal parameters: copy_X  & fit_intercept
@@ -32,7 +32,7 @@ I implemented two models:
    Fine tuned the lasso model using gridsearch cross validation to find optimal parameters: alpha & max_iter (max iterations)
 
 
-** Modeling Results ** 
+<h2> Modeling Results </h2>
 1. Linear Regression Model 1 Result Summary:
    
    Train mean squared error score is 1.330
@@ -52,7 +52,7 @@ I implemented two models:
 
 Applied Permutation importance to explain feature predictability score towards price
 
-** Findings **
+<h2> Model Recommendations to Customer (Findings) </h2>
 
     1. Customers are highly likely to buy high price cars n California.
     2. When the car is automatic, the price is selling for high prices.
