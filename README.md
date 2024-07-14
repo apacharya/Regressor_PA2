@@ -1,4 +1,4 @@
-# Regressor_PA2
+# Regressor
  
 <h2> Problem Statement </h2>
 Develop Regressor optimal ML model to predict car sale prices. The provided dataset is form kaggle and contains information on 426K cars to ensure speed of processing.  The goal is to understand what factors make a car more or less expensive for client such as a used car dealership who would like to know what consumers value in a used car.
